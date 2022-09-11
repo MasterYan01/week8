@@ -12818,7 +12818,7 @@ fieldset:disabled .btn {
 body {
   font-family: 'Noto Sans TC', sans-serif;
   overflow-x: hidden;
-  padding-top: 144px;
+  padding-top: 62px;
 }
 
 img {
@@ -12896,6 +12896,9 @@ img {
 }
 
 @media (min-width: 992px) {
+  body {
+    padding-top: 144px;
+  }
   .walletBtn {
     display: none;
   }
