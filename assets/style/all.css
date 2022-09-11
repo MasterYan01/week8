@@ -12961,6 +12961,17 @@ img {
   }
 }
 
+.image3 {
+  width: 56px;
+  height: 50px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.numSquada {
+  font-family: "Squada One";
+}
+
 .btn-triangle {
   position: relative;
 }
