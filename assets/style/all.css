@@ -13000,8 +13000,8 @@ img {
 .btn-triangle ::after {
   content: "";
   position: absolute;
-  right: 0;
-  bottom: 0;
+  right: 0px;
+  bottom: 0px;
   border-left: 16px transparent solid;
   border-bottom: 16px #E6553B solid;
 }
@@ -13020,10 +13020,39 @@ img {
   color: white;
 }
 
+.btn-white:hover.btn-triangle ::after {
+  content: "";
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  border-left: 16px transparent solid;
+  border-bottom: 16px black solid;
+}
+
+.btn-border {
+  background-color: #F0F0F0;
+  color: black;
+  border: 1px solid transparent;
+  border-bottom: 1px solid #000;
+}
+
 .btn-border:hover {
   background-color: #E6553B;
   color: white;
   border: 1px solid black;
+}
+
+.btn-border:hover.btn-triangle ::after {
+  content: "";
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  border-left: 16px transparent solid;
+  border-bottom: 16px black solid;
+}
+
+.coverBorderBottom {
+  margin-bottom: -1px;
 }
 
 .title {
