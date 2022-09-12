@@ -12972,6 +12972,16 @@ img {
   font-family: "Squada One";
 }
 
+.numWidth {
+  width: 10%;
+}
+
+@media (min-width: 992px) {
+  .mobileVersion {
+    display: none;
+  }
+}
+
 .btn-triangle {
   position: relative;
 }
