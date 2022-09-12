@@ -12976,9 +12976,20 @@ img {
   width: 10%;
 }
 
+.lgVersion {
+  display: none;
+}
+
+.mobileValue {
+  display: block;
+}
+
 @media (min-width: 992px) {
   .mobileVersion {
     display: none;
+  }
+  .lgVersion {
+    display: block;
   }
 }
 
