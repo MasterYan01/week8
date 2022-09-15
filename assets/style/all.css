@@ -12868,6 +12868,10 @@ img {
   font-size: 16px;
 }
 
+.rankingName2 {
+  font-family: 'Squada One', cursive;
+}
+
 .icon {
   color: #E6553B;
   font-size: 40px;
@@ -12991,6 +12995,24 @@ img {
   .lgVersion {
     display: block;
   }
+}
+
+.imgBorder10 {
+  width: 304px;
+  height: 313px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border: 10px solid black;
+}
+
+.boxTriangleTopRight {
+  border-right: 24px transparent solid;
+  border-top: 24px black solid;
+}
+
+.boxTriangleTopLeft {
+  border-left: 24px transparent solid;
+  border-top: 24px black solid;
 }
 
 .btn-triangle {
